@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_join"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.cob_3.Join"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:textSize="30dp"
+        android:background="#ffffff"
+        android:textColor="#111111"
+        android:id="@+id/joinback"
+        android:layout_marginLeft="10dp"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etid"
+        android:hint="id"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:privateImeOptions="defaultInputmode=english;symbol=true"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etpassword_1"
+        android:hint="password"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:privateImeOptions="defaultInputmode=english;symbol=true"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etpassword_2"
+        android:hint="check password"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:privateImeOptions="defaultInputmode=english;symbol=true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="회원가입"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/join"/>
+
+</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_helpf_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.cob_3.helpf_2"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="55"
+        android:id="@+id/helpimg"
+        android:orientation="vertical">
+    </ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left">
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="back"
+                android:textSize="10dp"
+                android:id="@+id/back"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right">
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="next"
+                android:textSize="10dp"
+                android:id="@+id/next"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/help_text"
+                android:text ="1.하단의 탭중 중앙에 위치한 명함쓰기입니다.\n2.명함쓰기 버튼을 클릭하면 NFC스티커에 정보를 기록할 수 있습니다.\n3.'내 명함 쓰기' 버튼을 클릭하면 내가 저장한 사용자정보를 nfc스티커에 입력할 수 있습니다.\n4.NEXT버튼을 눌러주세요"
+                android:textSize="19dp"/>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

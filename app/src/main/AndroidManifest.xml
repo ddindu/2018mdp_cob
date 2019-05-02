@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.cob_3">
+
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/cofb_7"
+        android:label="COB"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".StartActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".WriteMain" />
+        <activity android:name=".Login" />
+        <activity android:name=".Join" />
+        <activity android:name=".Userjoin" />
+        <activity android:name=".ReadMain" />
+        <activity android:name=".UserF" />
+        <activity android:name=".FindIdpw" />
+        <activity android:name=".InCard" />
+        <activity android:name=".InCard2" />
+        <activity android:name=".ReadMain2" />
+        <activity android:name=".InCard3" />
+        <activity android:name=".ReadMain3" />
+        <activity android:name=".HelpActivity" />
+        <activity android:name=".WriteUser"></activity>
+    </application>
+
+</manifest>
